@@ -1,0 +1,32 @@
+.content_wrapper {
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+        rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    width: 400px;
+    height: 1000;
+    background-color: #8b888d;
+    padding: 2%;
+}
+
+input[type=text],
+input[type=password] {
+    width: 80%;
+    padding: 15px 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+  }
